@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        ul{
+            display: inline;
+            list-style-type: none;
+            padding-left: 0px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        li{
+            display: inline-block;
+            background-color: #3F3F3F;
+            color: white;
+        }
+
+        .news-ul{
+            position: absolute;
+            display: none;
+        }
+
+        .news-li:hover .news-ul{
+            display: block;
+        }
+
+        li:hover{
+            color: red;
+            background-color: yellow;
+            transition: 0.5s;
+        }
+
+    </style>
+
+
+</head>
+<body>
+   
+    <ul>
+        <li><a href="https://www.google.com">google</a></li>
+        <li><a href="https://www.youtube.com">yotube</a></li>
+        <li class="news-li">
+            <a href="">news</a>
+            <ul class="news-ul">
+                <li>news1</li>
+                <li>news2</li>
+                <li>news3</li>
+            </ul>
+
+        </li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

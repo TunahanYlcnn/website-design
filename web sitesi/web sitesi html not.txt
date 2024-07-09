@@ -1,0 +1,202 @@
+<meta charset="UTF-8">
+utf-8 sayfanın dili demek türkçe ş karakteri sayfada * olarak çıkmaz
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+telefonda düzgün görünmesini sağlar
+
+<meta name="keywords" content="elma">  
+google da arama çubuna bu kelime girilince daha çok üstte olmasını sağlar
+
+<meta name="description" content="elmanın faydaları">
+google da çıkan küçük bilgilendirme yeri
+
+<title>HTML ÖĞRENİYORUM</title>  
+sekmenin başlığı
+
+<!---->
+yorum satırı
+
+code kısa yolları
+    1- ALT + SHIFT + F =KODLARI DÜZENLEME
+    2- CTRL + ALT + AŞAĞI VEYA YUKARI OK= İMLECİ AŞAĞI YUKARI BÜYÜTÜR
+    3- ALT + YUKARI AŞAĞI OK TUŞLARI= SATIRI KAYDIRMAK İÇİN
+    4-YAZIYI SEÇİP CTRL + D = AYNI DİĞER YAZILARI DA SEÇİP DÜZENLEME
+    5-CTRL + SHİFT + K = SATIR SİLMEK 
+    6-CTRL + ENTER = YENİ SATIR
+
+
+
+<p> paragraf için</p>
+
+<p>lorem + enter
+rastgele paragraf oluşturu
+
+<h>
+yazının büyüklüğü
+
+<hr>
+çizgi çeker
+
+<br>
+boşluk satır bırakır
+ 
+<strong>
+tag içerisinde kullanılabilir tek de kullanilabilir yazı daha koyu olur
+
+kapanması gerekmeyen taglarda (br,hr,vs) gerekirse kapatmak için <hr/> yapılabilir
+
+<center>
+yazıyı yada resmi ortalar
+
+<a herf=""> 
+herf içine yazılan linke gitmek için kullanılır sonda </a> yaparak kapatılmalı 
+
+<ul> ol
+içerisine <li> yazıp nokta listesi oluşturulabilir ol sıralar
+
+<table></table>
+tablo oluşturmak için
+
+<tr></tr>
+satır oluşturmak için
+
+<td></td>
+table data satıra veri girmek için
+
+<th colspan-rowspan></th>
+tablonun başlığı colspan satırları birleştiri rowspan sütunları birleştirir
+
+inline etiketi:
+boşluk bırakız <span></span>alt alta da yazsan yan yana durur
+
+block elementi:
+altında üstünde yanında boşluk bırakır başka bişi yazılmaz
+
+...<input type="text" placeholder="">
+harf almak için kullanılırplaceholder kutu içinde yazılacak yer
+
+....<input type="password">
+rakam almak için kullanılır
+
+....<input type="email">
+email almak için kullanılır
+
+....<input type="checkbox">
+kutu işaretlendirmek için kullanılır
+
+kadın <input type="radio" name="cinsiyetRadio"><br>
+tek bi yuvarlak kutucuk işaretlemek için kullanılır
+
+<input type="file"> 
+dosya istemek için
+
+<input type="submit" value="gönder">
+formu göndermek için value içine yazılan gösterilir
+
+<input type="reset" value="temizle">
+girilinleri silmek için kullanılır
+
+<textarea name="mesajInput" id="mesaj alanı" cols="30" rows="10"></textarea>
+mesaj almak için kullanılır
+<select>
+	<option>...</option>
+</select>
+kutu içerisinde seçim yaptırır
+
+<video></video>
+viideo eklemek için kullanılır
+
+<iframe src=""></iframe>
+siteye herhangi bi web sitesi eklemek için kullanılır
+yotube videosu için paylaş-yerleştir-iframe kopyala
+
+                  --------CSS---------
+<style><!style>
+head içine yazılır ise hepsi için aynı olur
+etiket içine yazılır ise bi yere etki eder
+
+<link>
+ayrı yerde css ile yazdığımız kodu kullanır
+
+head içindeki style içine div eklemek:
+<h1 class""> divi class içine yazarsan sadece o h1 etkilenir
+
+id :
+tek bir yere kullanılması gerekir ileride lazım
+
+style içindeki divin içendeki text alling:
+metinin nerde olacağını ayarlar
+
+style içinde:
+background-image: url() 
+arka plana resim ekler üstüne yazı yazılabilir
+
+background-size:
+resmin boyutunu ayarlar
+
+backgorund-position:
+resmin nasıl olacağını ayarlar soldamı ortada mı sağda mı şeklinde
+
+border:
+resmin çerçevelemek için kullanılır
+
+border-radius:
+köseler yuvarlağa yakın olmaya başlar
+
+margin:
+dış nesneler arasındaki mesafeyi ayarlamak için kullanılır
+
+padding:
+iç nesneler arasındaki mesafeyi ayarlamak için kullanılır
+
+<p style="display: inline;"></p>:
+block elementi olmaktan çıkarmak için
+
+display:
+inline-block yapıp yan yana iki divi getirebiliriz
+
+z-index:
+resmin üstüne yazı eklemek için kullanılır -1 değeri verilir yani 1 alt katman demek
+
+overflow:
+bar eklemek için kullanılır 
+
+transition:
+kaç saniyede olsun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="elma">
+    <meta name="description" content="elmanın faydaları"> 
+    <title>HTML ÖĞRENİYORUM</title>  
+    
+    <!--. class , # id demek-->
+    <style>
+        .divOzellik{
+            width: 100%;
+            height: 400px;
+            background-color: antiquewhite;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .divOzellik2{
+            width: 100%;
+            height: 400px;
+            background-color: tomato;
+            text-align: center;
+        }
+        .formdiv{
+            width: 500px;
+            height: 452px;
+            background-color: antiquewhite;
+
+        }
+
+
+    </style>
+
+</head>
+
+
+<!--
+    code kısa yolları
+    1- ALT + SHIFT + F =KODLARI DÜZENLEME
+    2- CTRL + ALT + AŞAĞI VEYA YUKARI OK= İMLECİ AŞAĞI YUKARI BÜYÜTÜR
+    3- ALT + YUKARI AŞAĞI OK TUŞLARI= SATIRI KAYDIRMAK İÇİN
+    4-YAZIYI SEÇİP CTRL + D = AYNI DİĞER YAZILARI DA SEÇİP DÜZENLEME
+    5-CTRL + SHİFT + K = SATIR SİLMEK 
+    6-CTRL + ENTER = YENİ SATIR
+
+
+-->
+<body>
+    <!--menü başlangıcı-->
+    <!--kodları yazarız-->
+    <!--burası menü itişi-->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam hic eveniet a placeat dolorem optio illo unde incidunt nostrum dolore ea facere quaerat perspiciatis non, totam, ut voluptas maiores? Dicta.</p>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus optio, aliquid natus quae odit nihil quibusdam perferendis laudantium ipsam, accusantium distinctio officiis quod inventore deserunt eum aspernatur reiciendis sint enim error ab magni fuga. Laudantium voluptatum qui optio ducimus, et consequatur consequuntur illum impedit, aliquam dolore placeat omnis amet repellendus.</P>
+
+    <p>----------------------------------------------</p>
+
+    <!--header elemntleri-->
+    <h1>tunahan yalçın</h1>
+    <h2>tunahan yalçın</h2>
+    <h3>tunahan yalçın</h3>
+    <h4>tunahan yalçın</h4>
+    <h5>tunahan yalçın</h5>
+    <h6>tunahan yalçın</h6>
+    
+    <p>------------------------------------------</p>
+
+    <P>TUNAHAN</P>
+    <H2>YALÇIN HOLDİNG</H2>
+    <UL>
+        <li class="item">tunahan yalçın</li>
+        <li class="item">aaaaa</li>
+        <li class="item">bbbb</li>
+        <li class="item">ccccc</li>
+        <li class="item">dddddd</li>
+    </UL>
+    <hr>
+    <!--BİÇİMLENDİRME ELEMENTLERİ
+        1-hr : çizgi çeker 
+        2-br : bir satır boşkul
+        3-strong : kalın yapar
+        4-b : strongla aynı
+        5-i : yazıyı yatırır
+        6-mark : işaretler
+        7-center: resim veya yazıyı ortalar
+        8- a: link vermek için kullanılır
+        9-ol(ordinary list), ul(unordinary list)
+        10-table: tablo
+        11-div etiketi
+
+
+        -----form kullanımı-------
+        <input type="text">
+        <input type="password">
+        <input type="email">
+        <input type="checkbox">
+        <input type="radio">
+        <input type="file">
+        <input type="reset">
+        <input type="submit">
+        <textarea id="w3review" rows="4" cols="50">
+        <select><option>
+    -->
+
+    <h2><mark>HTML DERSLERİ</mark></h2>
+    <hr>
+    <p>JAVA DERSLERİ</p>
+    <br>
+    <p>sql server dersleri</p>
+    <p><strong>derslerr</strong></p>
+    <p><strong><i>derslerr.lll</i></strong></p>
+
+    <hr>
+
+    <!--img(image etiketi):resim
+    src(source):kaynak
+    alt:resim bulunamaz ise çıkacak yazı
+    width: yan uzunluk
+    height:yükseklik
+
+    
+    -->
+<center>
+    <img src="/güneşresim.jpeg" 
+    alt="güneş bulunamad" 
+    width="400" 
+    height="200">
+    <!--alt alta da yazılabilir yan yanada-->
+    <h2>güneeeşş</h2>
+</center>
+    <hr>
+    
+    googla gitmek içinaa <a href="https://www.google.com" target="_blank">tıklayınız</a> 
+    <hr>
+    <!--resime tıklayıp linke gitmek-->
+    <a href="https://www.youtube.com/" target="_blank"><img src="yotube.webp" alt="yok" width="60" height="50"></a>
+
+    <h3>içecekler</h3>
+    <ul>
+        
+        <li>kahve</li>
+        <li>çay</li>
+        <li>limonata</li>
+        <li>oralet</li>
+    </ul>
+
+    <ol type="A">
+        <li>kahve</li>
+        <li>çay</li>
+        <li>limonata</li>
+        <li>oralet</li>
+    </ol>
+
+
+    <ol type="1">
+        <li>iç donanım</li>
+        <ol type="I">
+            <li>anakart</li>
+            <li>işlemci</li>
+            <li>bellek</li>
+
+        </ol>
+        <li>dış donanım</li>
+        <ol type="1">
+            <li>monitör</li>
+            <ol type="a">
+                <li>lcd</li>
+                <li>led</li>
+
+            </ol>
+        <li>kalvye</li>
+        <li>fare</li>
+        </ol>
+
+    </ol>
+
+    <table border="1">
+        <tr>
+            <th colspan="5">blabla</th>
+        </tr>
+        <tr>
+            <th >qw</th>
+            <th>er</th>
+            <th>ty</th>
+            <th>uı</th>
+            <th>op</th>
+        </tr>
+        <tr>
+            <th rowspan="2">tunahan</td>
+            <td>ccc</td>
+            <td>eeeee</td>
+            <td>aaa</td>
+            <td>bbb</td>
+        </tr>
+        <tr>
+            
+            <td>13</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+        </tr>
+    </table>
+    <hr>
+
+    <table border="1">
+        
+        <tr>
+            <th colspan="3">product</th>
+        </tr>
+        <tr>
+            <th>no</th>
+            <th>p.name</th>
+            <th>p.count</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>pen</td>
+            <td rowspan="3">50</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>book</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>dust</td>
+        </tr>
+    
+    </table>
+    
+    <hr>
+    <div class="divOzellik">
+        <h3>sa gral</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        
+    </div>
+
+    <div class="divOzellik2">
+        <h1>as canım</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, unde?</p>
+
+    </div>
+
+    <hr>
+    <form>
+        <input type="text" placeholder="isminiz"/>
+        şifreniz <input type="password">
+        <input type="email" placeholder="email"><br>
+        kitap okumak<input type="checkbox"> <br>
+        spor yapmak <input type="checkbox"><br><br>
+        kadın <input type="radio" name="cinsiyetRadio"><br>
+        <textarea name="mesajInput" id="mesaj alanı" cols="30" rows="10"></textarea>
+        erkek <input type="radio" name="cinsiyetRadio"><br>
+        <input type="file"><br><br>
+        içecekler seçiniz:
+        <select>
+            <option>çay</option>
+            <option>kahve</option>
+            <option>limonata</option>
+        </select>
+        <input type="submit" value="gönder">
+        <input type="reset" value="temizle">
+
+    </form>
+    <hr>
+    <form>
+        <div class="formdiv">
+        <table>
+            <tr>
+                <td>adınız:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>soyadınız:</td> 
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>email adres</td>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <td>şifreniz</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>cinsiyetiniz</td>
+                <td>
+                    <input id="erkekradio" type="radio" name="cinsiyet">
+                    <label for="erkekradio">Erkek</label>
+                    <input id="kadınradio" type="radio" name="cinsiyet">
+                    <label for="kadınradio">Kadın</label>
+                </td>
+            </tr>
+            <tr>
+                <td>doğum tarihi</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <th>hobiler</th>
+            </tr>
+            <tr>
+                <td>spor yapmak</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>yüzmek</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>kitap okumak</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>ensturuman çalmak</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><textarea cols="40" rows="5" placeholder="mesajınız"></textarea></td>
+            </tr>
+            <tr>
+                <td>okudum,onaylıyorum <input type="radio" name="szleşme">
+                okudum,onaylamıyorum <input type="radio" name="szleşme"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="yolla" style="margin-right: 10px ;">
+                <input type="reset" value="temizle"></td>
+            </tr>
+        </div>
+        </table>
+    </form>
+
+    <hr>
+    <!--video ekleme-->
+    <video width="300" height="300" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <!--iframe kullanımı-->
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/mdPfWXuGUBs?si=6tDSIrJmaYCDw_hg" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+</body>
+
+    
+</html>
+
+
+
+
+
+
